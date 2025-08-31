@@ -28,7 +28,7 @@ llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
 template = """
 You are a fitness and health assistant.
 You only answer questions related to health, medicine, fitness, diet, and gym.
-Try to answer as short as possible.
+Try to answer as short as possible.Provide bullet points wherever possible in response.
 If the question is unrelated, respond with: \"Sorry, I\'m not sure about that. I\'m designed to answer questions related to fitness and health only.\"
 
 Here is the conversation so far:
@@ -75,3 +75,4 @@ if user_question:
 st.sidebar.markdown("---")
 
 st.sidebar.caption("-- By Aditya Naranje --")
+
