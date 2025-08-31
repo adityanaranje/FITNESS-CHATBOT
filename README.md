@@ -36,8 +36,7 @@ If a question falls outside these topics, it politely responds:
 ---
 
 ## 🚀 Live Demo
-🔗 **App Link:** [Your Deployment Link]  
-💻 **GitHub Repo:** [Your GitHub Link]  
+🔗 **App Link:** [Deployment Link](https://fitness-chatbot-aditya-naranje.streamlit.app/)  
 
 ---
 
@@ -45,7 +44,7 @@ If a question falls outside these topics, it politely responds:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/fitness-chatbot.git
+   git clone https://github.com/adityanaranje/FITNESS-CHATBOT
    cd fitness-chatbot
    ```
 
