@@ -14,7 +14,7 @@ If a question falls outside these topics, it politely responds:
 ---
 
 ## 📸 Preview
-![App Screenshot](your-screenshot-link-here)
+![App Screenshot](https://github.com/adityanaranje/FITNESS-CHATBOT/blob/main/AppScreenshot.png)
 
 ---
 
