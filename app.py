@@ -8,8 +8,7 @@ from langchain_groq import ChatGroq
 
 # Load environment variables
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
-
+groq_api_key = st.secrets["GROQ_API_KEY"] 
 # Streamlit Page Config
 st.set_page_config(page_title="Health and Fitness Chatbot", page_icon="💪")
 st.header("💪 Health & Fitness Chatbot")
@@ -74,4 +73,5 @@ if user_question:
     st.session_state.messages.append({"role": "assistant", "content": response})
 
 st.sidebar.markdown("---")
+
 st.sidebar.caption("-- By Aditya Naranje --")
